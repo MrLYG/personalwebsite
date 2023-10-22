@@ -22,7 +22,7 @@ tags:
 #### Awards
 <ul>
     <li>Beijing Excellent Graduate Student</li>
-    <li>Beijing Excellent Graduate Paper</li>
+    <li>Beijing Excellent Graduate Paper - <a href="https://www.bcu.edu.cn/info/1251/17201.htm">link</a></li>
     <li>
         <details>
             <summary>See More Awards</summary>
