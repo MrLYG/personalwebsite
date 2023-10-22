@@ -1,10 +1,7 @@
 ---
 title: Education
-academia: true
-date: 2023-10-14 00:27:43
-tags:
+date: 2023-10-22 14:46:47
 ---
-
 ### Education
 <div style="display: flex; justify-content: space-between;">
     <span>University of Southern California</span>

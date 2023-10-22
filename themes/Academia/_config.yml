@@ -3,7 +3,8 @@ favicon: /img/cloud_ai.png
 avatar: /img/profile_v1.jpg
 # if author sets in hexo_config, this string doesn't work
 author: 'Yuangang Li'
-author_bio: 'I am a Mater Student in Computer Science at the University of Southern California. My research interests include Cloud Computing, Machine Learning, and Distributed Systems.'
+author_bio: 'Mater Student in Computer Science at the University of Southern California. &
+Interests include Cloud Computing, Machine Learning, and Distributed Systems.'
 
 since: 2023
 
@@ -12,10 +13,8 @@ since: 2023
 # 可以选择外链或其他页面
 menu:
   Readme: /Readme/
+  Experience: /Experience/
   Projects: /Projects/
-  Publications: /#Publications
-  About: /
-  Blog: https://phower.me
 
 # flink picture will load if avator link calls on error
 loading_bg:
@@ -34,14 +33,14 @@ social_links:
   fab fa-linkedin: https://www.linkedin.com/in/yuangang-li/
   # fab fa-weibo: /
   fab fa-weixin: /
-  fab fa-qq: /
+  # fab fa-qq: /
   fas fa-envelope: / #E-mail
   # fas fa-rss: /  #rss
 
 # Additional social_links，额外添加自定义链接，可显示链接名称
 # name: url || icon_name
 e_social:
-  enable: true
+  enable: false
 e_social_links:
   Google Scholar: / || fas fa-graduation-cap
   ORCID: / || fab fa-orcid
@@ -50,7 +49,7 @@ e_social_links:
 cv_dl:
   enable: true
   dir: /attaches/CV.pdf
-  description: My Detail CV.
+  description: My Detail .
 
 # Box-shadow
 # display box-shadow on page or not
