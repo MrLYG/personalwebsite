@@ -6,10 +6,10 @@ tags:
 ---
 
 
-Welcome to my personal space on the web! I'm Yuangang Li, a passionate software developer and infrastructure engineer based in Los Angeles, CA. With a background rooted in Computer Science and hands-on experience in the dynamic field of **cloud computing** and **AI**, I thrive on coding, problem-solving, and continuous learning.
+👋 Welcome to my personal space! I'm Yuangang Li, a passionate **FullStack developer** and **Infrastructure engineer** based in Los Angeles, CA. I specialize in coding, problem-solving, and continuous learning in the realms of **Cloud Computing** and **AI**.
 
 ### Education 🎓
-I'm currently expanding my horizons as a Master's student in Computer Science at the University of Southern California, an experience that has significantly broadened my theoretical knowledge and practical skills in this domain. My academic journey began at Beijing City University, where I earned my BSc in Software Engineering, specializing in Cloud Computing. Standing out in my class, I graduated with a remarkable GPA, landing in the top 1%.
+I'm currently expanding my horizons as a **Master's** student in **Computer Science** at **the University of Southern California**, an experience that has significantly broadened my theoretical knowledge and practical skills in this domain. My academic journey began at Beijing City University, where I earned my BSc in Software Engineering, specializing in Cloud Computing. Standing out in my class, I graduated with a remarkable GPA, landing in the top 1%.
 
 ### How I Work 💻
 My expertise pivots around several key aspects of tech development:

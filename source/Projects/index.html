@@ -1,0 +1,236 @@
+<style>
+    .projects-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0 0;
+    }
+
+    .projects-table td {
+        border: 0;
+        vertical-align: middle;
+    }
+
+    .projects-table img {
+        max-width: 100px;
+        height: 100px;
+    }
+
+    .projects-table .paper p {
+        text-align: left;
+        margin: 0;
+    }
+
+    #techstack {
+        font-size: 0.9em;
+    }
+
+    .projects-table .paper {
+        position: relative;
+        /* 设置为相对定位，以便背景图片正确放置 */
+    }
+
+    .project-entry {
+        position: relative;
+        /* 使我们能够相对于此容器定位背景图片 */
+        margin-bottom: 20px;
+        /* 可选：根据需要增加一些间距 */
+    }
+
+    .background-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.1;
+        /* 根据需要调整透明度 */
+    }
+    hr {
+        border: 0;
+        height: 2px;
+        opacity: 0.5;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    }
+
+    .background-image {
+        /* 其他样式保持不变 */
+        background-size: contain;
+        /* 确保图片完整显示 */
+        background-repeat: no-repeat;
+        /* 防止图片重复 */
+        background-position: center;
+        /* 将图片居中在容器内 */
+        opacity: 0.075;
+        /* 根据需要调整透明度 */
+    }
+</style>
+<div class="project-entry">
+    <div class="background-image" style="background-image: url('/img/ablator.png');"></div>
+    <table class="projects-table" style="width:100%; border-collapse: collapse;">
+        <tr>
+            <td class="paper">
+                <papertitle><b>ABLATOR: Robust Horizontal-Scaling of Machine Learning Ablation Experiments</b>
+                </papertitle>
+                <p id="techstack"><i>Python, MLOps, Docker, Github Action, Pytorch, Pytest</i></p>
+                <em>AutoML</em>,2023
+                <br>
+                <a href="https://github.com/fostiropoulos/ablator" style="color:blue;">Github</a>
+                /
+                <a href="https://openreview.net/pdf?id=eBLV3i7PG1c" style="color:blue;">Paper</a>
+                <p></p>
+            </td>
+        </tr>
+        <tr>
+            <td class="paper" colspan="2">
+                <p>
+                    <li>A distributed experiment execution framework for ablation studies. ABLATOR provides a wrapper
+                        for your model and a Trainer class for you to prototype on your method and scale to thousands of
+                        experimental trials with 1 code change.
+                    </li>
+                    <li>Automates analysis artifacts, cutting down manual review processes.</li>
+                    <li>Integrates comprehensive functionalities (HPO, training, tuning, analysis) outdoing counterparts
+                        like Ray, Optuna, etc.</li>
+                    <li>Integration with established libraries (e.g., PyTorch Lighting), ensuring versatility without
+                        complexity.</li>
+                    <li>Reduces dev-ops burdens, redirecting focus to innovative aspects of ML research.</li>
+                </p>
+            </td>
+        </tr>
+    </table>
+</div>
+<hr>
+<div class="project-entry">
+    <div class="background-image" style="background-image: url('/img/rocketmq.png');"></div>
+    <table class="projects-table" style="width:100%; border-collapse: collapse;">
+        <tr>
+            <td class="paper">
+                <papertitle><b>RocketMqOperator: Auto Mangane RocketMq Cluster Instance on an Cloud Platform</b>
+                </papertitle>
+                <p id="techstack"><i><b>Kubernetes, Docker</b>, Go, CI/CD, CRD, Operator-SDK, Helm3, Prometheus,
+                        Grafana</i></p>
+                <em>SenseTime (The first listed AI company in China)</em>, 2023
+                <br>
+                <a href="https://youtu.be/ZPjd3liwSkE" style="color:blue;">Video Introduction</a>
+                <p></p>
+            </td>
+        </tr>
+        <tr>
+            <td class="paper" colspan="2">
+                <p>
+                    The RocketMQ Operator automatically deploys and manages RocketMQ clusters on the Kubernetes-based
+                    cloud environment.
+                    <i>Apache RocketMQ is a popular distributed messaging and streaming platform.</i>
+                    <br>Support Features:
+                    <li>Horizontal Scaling - Safely and seamlessly scale up each component of RocketMQ.
+                    </li>
+                    <li>Rolling Update - Gracefully perform rolling updates in order with no downtime.</li>
+                    <li>Multi-cluster Support - Users can deploy and manage multiple RocketMQ name server clusters and
+                        broker clusters on a single Kubernetes cluster using RocketMQ Operator.</li>
+                </p>
+            </td>
+        </tr>
+    </table>
+</div>
+<hr>
+<div class="project-entry">
+    <div class="background-image" style="background-image: url('/img/webrr.png');"></div>
+    <table class="projects-table" style="width:100%; border-collapse: collapse;">
+        <tr>
+            <td class="paper">
+                <papertitle><b>WebRR: Automatic testing tool based on record/replay for web application cross-browser
+                        compatibility </b>
+                </papertitle>
+                <p id="techstack"><i>Docker, Node.js, JSON, Vue.js, RobotFramework</i></p>
+                <em>Chinese Academy of Sciences (Top Research Institute)</em>, 2021-2022
+                <br><a href="https://dl.acm.org/doi/abs/10.1145/3368089.3417069" style="color:blue;">Paper</a>
+                <p></p>
+            </td>
+        </tr>
+        <tr>
+            <td class="paper" colspan="2">
+                <p>
+                    <li>The tool features a low-code approach, allowing users without extensive programming skills to
+                        easily create and deploy complex automation tests.</li>
+                    <li>Utilized a low-code model, simplifying test creation for users with limited programming
+                        background.
+                    </li>
+                    <li>Ensured cross-platform testing, enhancing application consistency across diverse environments.
+                    </li>
+                    <li>Automated script generation from user interactions to JSON, then to Robot Framework formats.
+                    </li>
+                    <li>
+                        Deployed in key enterprises like Southern Power Grid, streamlining their testing processes and
+                        reducing errors.
+                    </li>
+                    <li>Broadened testing participation due to the tool's ease of use, boosting software quality and
+                        user satisfaction.</li>
+                </p>
+            </td>
+        </tr>
+    </table>
+</div>
+<hr>
+<div class="project-entry">
+    <div class="background-image" style="background-image: url('/img/rocketmq.png');"></div>
+    <table class="projects-table" style="width:100%; border-collapse: collapse;">
+        <tr>
+            <td class="paper">
+                <papertitle><b>College professional development analysis platform</b>
+                </papertitle>
+                <p id="techstack"><i>Full Stack Website, Web crawler, Python, MongoDB, MySQL, Java, Spring, Spring MVC,
+                        MyBatis, React, Docker</i></p>
+                National-level Innovation Training Program</em>, 2019<br>
+                <a href="http://bjcxcy.bjtu.edu.cn/Index/ItemDetail?id=3528e362-295d-4052-8f6a-4f0348313d50&_pageIndex=3595&_amp;_pageIndex=152&_eqid=8f8936dd0001b17200000003646f0237"
+                    style="color:blue;">link</a>
+                <p></p>
+            </td>
+        </tr>
+        <tr>
+            <td class="paper" colspan="2">
+                <p>
+                    <li>Led a team to collect and analyze job recruitment data using Web crawler and Python libraries,
+                        aiding university major and curriculum planning.</li>
+                    <li>Stored data using MongoDB and MySQL databases for subsequent data processing and analysis.</li>
+                    <li>Built data visualization interfaces using Spring and React technologies, improving data
+                        readability.</li>
+                    <li>Used Docker for containerization and CI/CD technologies for automated operations, enhancing the
+                        efficiency of project deployment and operation, and ensuring project stability and reliability.
+                    </li>
+                    <li>Achieved recognition as a "National Level Innovative Excellence Project for College Students"
+                        and adopted by school for professional development data support.</li>
+                </p>
+            </td>
+        </tr>
+    </table>
+</div>
+<hr>
+<div class="project-entry">
+    <div class="background-image" style="background-image: url('/img/rocketmq.png');"></div>
+    <table class="projects-table" style="width:100%; border-collapse: collapse;">
+        <tr>
+            <td class="paper">
+                <papertitle><b>EventMaster</b>
+                </papertitle>
+                <p id="techstack"><i>Full Stack Website, Node.js, AngularJS, GCP, AJAX</i></p>
+                <em>USC CSCI571</em>, 2023<br>
+                <a href="https://github.com/MrLYG/MrLYG.github.io/tree/master/csci571/hw6"
+                    style="color:blue;">Github</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="paper" colspan="2">
+                <p>
+                    <li>Developed a full-stack event search platform using JavaScript/Node.js, Express, AngularJS,
+                        TypeScript, and Bootstrap, aggregating event information and enhancing user interaction.</li>
+                    <li>Integrated APIs such as Ticketmaster, Spotify, Google Maps, and social media to enrich data
+                        display on the frontend.</li>
+                    <li>Deployed the project on the Google Cloud Platform(App Engine) with performance optimization.
+                    </li>
+                </p>
+            </td>
+        </tr>
+    </table>
+</div>

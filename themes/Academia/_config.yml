@@ -15,6 +15,8 @@ menu:
   Readme: /Readme/
   Experience: /Experience/
   Projects: /Projects/
+  Education: /Education/
+  Test: /test/
 
 # flink picture will load if avator link calls on error
 loading_bg:
