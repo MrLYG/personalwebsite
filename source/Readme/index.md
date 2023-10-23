@@ -1,5 +1,7 @@
+### Hi Welcome 👋
+👋 Welcome to my personal space! I'm Yuangang Li, a *Computer Science master's student at USC*, specializing in **AI** and **Cloud Computing**. As a dedicated **FullStack** Developer and **Infrastructure** Engineer, I embrace challenges and innovation in these dynamic fields."
 
-👋 Welcome to my personal space! I'm Yuangang Li, a passionate **FullStack developer** and **Infrastructure engineer** based in Los Angeles, CA. I specialize in coding, problem-solving, and continuous learning in the realms of **Cloud Computing** and **AI**.
+Currently, I am collaborating with Prof. Zhao ([Yue Zhao](https://viterbi-web.usc.edu/~yzhao010/)) to develop OpenAD, **an integrated open-source ecosystem for anomaly detection**, in the ASAP Lab at **USC**.
 
 ### Education 🎓
 I'm currently expanding my horizons as a **Master's** student in **Computer Science** at **the University of Southern California**, an experience that has significantly broadened my theoretical knowledge and practical skills in this domain. My academic journey began at Beijing City University, where I earned my BSc in Software Engineering, specializing in Cloud Computing. Standing out in my class, I graduated with a remarkable GPA, landing in the top 1%.

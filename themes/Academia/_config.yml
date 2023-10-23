@@ -15,7 +15,8 @@ menu:
   Readme: /Readme/
   Experience: /Experience/
   Projects: /Projects/
-  Education: /Education/
+  中文(zh-cn): /zh-cn/
+  # Education: /Education/
   # Test: /test/
 
 # flink picture will load if avator link calls on error
