@@ -13,6 +13,8 @@ With a profound commitment to **Cloud Computing** and **Artificial Intelligence 
 
 And work with Prof. Zhao ([Yue Zhao](https://viterbi-web.usc.edu/~yzhao010/)) to develop OpenAD, **an integrated open-source ecosystem for anomaly detection**, in the ASAP Lab at **USC**.
 
+**Contributor** to the [apache/rocketmq-operator](https://github.com/apache/rocketmq-operator) and [USC/DeepUSC/ablator](https://github.com/fostiropoulos/ablator)
+
 ### Education 🎓
 I'm currently expanding my horizons as a **Master's** student in **Computer Science** at **the University of Southern California**, an experience that has significantly broadened my theoretical knowledge and practical skills in this domain. My academic journey began at Beijing City University, where I earned my BSc in Software Engineering, specializing in Cloud Computing. Standing out in my class, I graduated with a remarkable GPA, landing in the top 1%.
 
